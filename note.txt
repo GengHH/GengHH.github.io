@@ -5,3 +5,5 @@
 1.已经将vuepress升级到1.x
 2.使用Travis-CI在线网站实现自动化编译和部署，会动提交到master分支上；
 注意：最好使用node.js-12.x
+
+免费
