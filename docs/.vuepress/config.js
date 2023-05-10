@@ -8,17 +8,17 @@
  */
 module.exports = {
 	// 左上角标题
-	title: "GHH 的文档库",
+	title: 'GHH 的文档库',
 	// 描述
-	description: "前端工程师 GHH 的文档库",
+	description: '前端工程师 GHH 的文档库',
 	// 头部部署，右上角小图标
 	head: [
 		// ico 配置
 		[
-			"link",
+			'link',
 			{
-				rel: "icon",
-				href: "/img/logo.ico",
+				rel: 'icon',
+				href: '/img/logo.ico',
 			},
 		],
 	],
@@ -31,8 +31,8 @@ module.exports = {
 		 */
 		nav: [
 			{
-				text: "主页",
-				link: "/",
+				text: '主页',
+				link: '/',
 			},
 			/**
 			 * 多级菜单
@@ -41,28 +41,28 @@ module.exports = {
 			 * link 为链接，注意带 /
 			 */
 			{
-				text: "博文",
+				text: '博文',
 				items: [
 					{
-						text: "微信小程序 bug 集中营",
+						text: '微信小程序 bug 集中营',
 						link:
-							"https://github.com/LiangJunrong/document-library/blob/master/other-library/WeChatApplet/WeChatAppletBug.md",
+							'https://github.com/LiangJunrong/document-library/blob/master/other-library/WeChatApplet/WeChatAppletBug.md',
 					},
 					{
-						text: "使用 GitHub Pages 和 VuePress 搭建网站",
+						text: '使用 GitHub Pages 和 VuePress 搭建网站',
 						link:
-							"https://github.com/LiangJunrong/document-library/blob/master/other-library/GithubPages/GithubPages.md",
+							'https://github.com/LiangJunrong/document-library/blob/master/other-library/GithubPages/GithubPages.md',
 					},
 				],
 			},
 			{
-				text: "关于",
-				link: "/about/",
+				text: '关于',
+				link: '/about/',
 			},
 			// 链接到网站
 			{
-				text: "Github",
-				link: "https://www.github.com/LiangJunrong",
+				text: 'Github',
+				link: 'https://www.github.com/LiangJunrong',
 			},
 		],
 		/**
@@ -70,17 +70,18 @@ module.exports = {
 		 */
 		sidebar: {
 			// 侧边栏在 /index/ 目录上
-			"/index/": [
-				["", "序言"],
-				["linuxCreateRedis", "Linux部署Redis"],
-				["gitProxy", "Git代理配置"],
+			'/index/': [
+				['', '序言'],
+				['vue', 'Vue学习资料'],
+				['linuxCreateRedis', 'Linux部署Redis'],
+				['gitProxy', 'Git代理配置'],
 			],
 			// 侧边栏在 /about/ 目录上
-			"/about/": [
-				["", "README"],
-				["GithubPages", "GithubPages"],
-				["VuePress", "VuePress"],
+			'/about/': [
+				['', 'README'],
+				['GithubPages', 'GithubPages'],
+				['VuePress', 'VuePress'],
 			],
 		},
 	},
-}
+};

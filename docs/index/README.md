@@ -7,7 +7,6 @@
  * @FilePath: \VuePress2\docs\index\README.md
 -->
 
-### This is index page!
 
 ---
 
@@ -48,3 +47,14 @@ _主要显示的是简单名称或者描述，详情可根据简称自行搜索_
 | :-----: | :----: | :----: | :---------: | :---: | :------: |
 | 千图网  | 中国红 | runoob | bootstrapmb | boxui | IconPark |
 | CodePen |
+
+
+##### vscode插件
+
+---
+
+|         |        |        |             |       |          |
+| :-----: | :----: | :----: | :---------: | :---: | :------: |
+| Chinese  | Settings Sync（配置同步到云端） | Auto Close Tag（自动闭合标签） | Auto Rename Tag | Bracket Pair Colorizer（括号做颜色区分） | CSS Peek（css样式查看器） |
+| open in browser | Path Intellisense（快速引入文件） | Volar | Import Cost（显示导入大小） |GitLens| Git Graph |
+| ESlint | TSlint | LeetCode | | | |
